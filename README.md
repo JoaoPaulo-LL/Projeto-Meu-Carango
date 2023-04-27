@@ -1,2 +1,2 @@
 # Projeto-Meu-Carango
-Projeto de criação de um site para divulgação e venda de carros. 
+Projeto simples de criação de um site para divulgação e venda de carros. 
