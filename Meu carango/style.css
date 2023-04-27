@@ -1,0 +1,155 @@
+header {
+    background-color: rgb(126, 126, 136);
+    color: white;
+    width: 100%;
+    padding: 25px 3%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center; 
+    display: flex;
+}
+body {
+    background-color: rgb(211, 211, 211);
+
+}
+.logo {
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif; 
+    color: white;
+    text-decoration: none;
+}
+.nav a {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 20px;
+    margin-left: 180px;
+    font-weight: 300;
+    text-decoration: none;
+}
+.nav a:hover,
+.nav a.active {
+color: #ee9c50;
+}
+
+table {
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif; 
+    color: rgb(255, 255, 255);
+    background-color: #514e53;
+    margin: 100px;
+    padding: 25px;
+    margin-top: 10px;
+    
+}
+td {
+    padding: 20px;
+
+}
+.titulotabela {
+    text-align: center;
+    background-color: #ee9c50;
+}
+.fabricantes {
+    color: #ee9c50;
+    font-size: 30px;
+
+}
+table th {
+    text-align: left;
+
+}
+.carros {
+    background-color: #ffffff;
+    margin: 200px;
+    padding: 100px;
+    position: static;
+    margin-top: 60px;
+    color: #49474b;
+    font-size: 20px;
+    border-spacing: 50px;
+    line-height: 1.5;
+}
+.meucarango {
+    background-color: #ffffff;
+}
+.mensagem {
+    color: #ee9c50;
+}
+h1 {
+    background-color: #514e53;
+    margin-top: 150px;
+    color: #f8f8f8;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    color: #49474b;
+}
+
+.contato {
+    background-color: #514e53;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+    margin: 40px;
+    margin-left: 350px;
+}
+.mail {
+    text-decoration: none;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 140px;
+}
+.contato a:hover,
+.contato a.active {
+color: #ee9c50;
+}
+h3:hover,
+h3.active {
+color: #ee9c50;
+}
+.fabricantes:hover,
+.fabricantes.active {
+color: #ffffff;
+cursor: pointer;
+}
+
+.carros2 {
+    position: static;
+    margin: 250px;
+    margin-top: 200px;
+    background-color: #ffffff;
+    color: #514e53;
+    align-items: center;
+}
+
+.carros2 th {
+    color: #ee9c50;
+    text-align: center;
+    font-size: 30px;
+    background-color: #f8f8f8;
+}
+.carros2 th:hover,
+.carros2 th.active {
+color: #514e53;
+cursor: pointer;
+}
+img .carrosdetalhes {
+    margin-top: 300px;
+    margin: 10px;
+    align-items: center;
+
+}
+.carros2 td {
+    background-color: #49474b;
+    color: #ffffff;
+    
+}
+.carros td {
+    background-color: #514e53;
+    color: #ffffff;
+}
