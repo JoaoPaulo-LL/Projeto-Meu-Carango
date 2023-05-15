@@ -3,6 +3,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+	<script src="app.js" defer></script>
     <title>Carros</title>
 </head>
 <body>
@@ -12,16 +13,29 @@
             <a href="index.html">Home</a>
             <a href="carros.html" class="active">Carros</a>
             <a href="fabricantes.html">Fabricantes</a>
+			<a href="agencias.html">Agências</a>
             <a href="contato.html">Contato</a>
         </nav>
     </header>
 
-    <table class="carros2">
+    <table class="carros2" id="duster">
 	    <tr>
             <th colspan="3">
-                <a class="carrosdetalhes">
-		        <img alt="ERROR" src="https://www.renault.com.br/agg/vn/unique/ONE_DACIA_PP_LARGE_DENSITY1/r_brandSite_carPicker_1.png?uri=https%3A%2F%2Fbr.co.rplug.renault.com%2Fproduct%2Fmodel%2FJM1%2Fduster%2Fc%2FA-ENS_0MDL2P1SERIESPE1_-TEKNH" width="400" height="300"></th>
-            </tr>
+				<!--Slider 1-->
+				<div class="container-slider">
+					<button id="prev-button1" class="button-slider">
+						<img src="prev.png" class="chevron prev" alt="prev-button">
+					</button>
+						<div class="container-images">
+							<img src="carros/Duster1.jpg" alt="carango" class="slider on">
+							<img src="carros/Duster2.jpg" alt="carango" class="slider">
+							<img src="carros/Duster3.jpg" alt="carango" class="slider">
+						</div>
+					<button id="next-button1" class="button-slider">
+						<img src="next.png" class="chevron" alt="next-button">
+					</button>
+				</div>
+        </tr>
         <tr>
 		<th colspan="3"> Duster </th>
 	    </tr>
@@ -85,12 +99,29 @@
 	    </tr>
 	</table>
 
-	<table  class="carros2">
+	<table  class="carros2" id="territory">
         <tr>
         <th colspan="2">
-            <a >
-            <img alt="ERROR" src="https://www.ford.com.br/content/ford/br/pt_br/home/jcr:content/par/common_box/generalParsys/tabpanel/cars5/splitter/splitter31/mediacarouselitem/image.imgs.full.high.png/1670442874388.png" width="340" height="200">
-            </a>
+				<!--Slider 2-->
+				<div class="container-slider">
+					<button id="prev-button2" class="button-slider">
+						<img 
+						src="prev.png" 
+						class="chevron prev"
+						alt="prev-button">
+					</button>
+						<div class="container-images">
+							<img src="carros/territory1.jpg" alt="carango" class="slider2 on">
+							<img src="carros/territory2.jpg" alt="carango" class="slider2">
+							<img src="carros/territory3.jpg" alt="carango" class="slider2">
+						</div>
+					<button id="next-button2" class="button-slider">
+						<img 
+						src="next.png" 
+						class="chevron"
+						alt="next-button">
+					</button>
+				</div>
         </th>
         </tr>
 	    <tr>
@@ -150,12 +181,23 @@
 	    </tr>
 	</table>
 
-	<table  class="carros2">
+	<table  class="carros2" id="hb20">
         <tr>
             <th colspan="3">
-                <a >
-                <img alt="ERROR" src="https://mlqt0se4pk9p.i.optimole.com/q:85/https://www.autodata.com.br/wordpress/wp-content/uploads//2022/12/HB20-Copa-do-Mundo-FIFA-Qatar-2022-51.png" width="400" height="260">
-                </a>
+				<!--Slider 3-->
+				<div class="container-slider">
+					<button id="prev-button3" class="button-slider">
+						<img src="prev.png" class="chevron prev" alt="prev-button">
+					</button>
+					<div class="container-images">
+						<img src="carros/HB20-1.jpg" alt="carango" class="slider3 on">
+						<img src="carros/HB20-2.jpg" alt="carango" class="slider3">
+						<img src="carros/HB20-3.jpg" alt="carango" class="slider3">
+					</div>
+					<button id="next-button3" class="button-slider">
+						<img src="next.png" class="chevron" alt="next-button">
+					</button>
+				</div>
             </th>
             </tr>
 	    <tr>
@@ -217,12 +259,23 @@
 	    </tr>
 	</table>
 
-	<table class="carros2">
+	<table class="carros2" id="honda">
         <tr>
             <th colspan="3">
-                <a >
-                <img alt="ERROR" src="https://capitalist.com.br/wp-content/uploads/2021/09/novo-Honda-City-2022-2-1024x524-1-1000x524.jpg" width="340" height="200">
-                </a>
+			<!--Slider 4-->
+			<div class="container-slider">
+				<button id="prev-button4" class="button-slider">
+					<img src="prev.png" class="chevron prev" alt="prev-button">
+				</button>
+				<div class="container-images">
+					<img src="carros/honda1.jpg" alt="carango" class="slider4 on">
+					<img src="carros/honda2.jpg" alt="carango" class="slider4">
+					<img src="carros/honda3.jpg" alt="carango" class="slider4">
+				</div>
+				<button id="next-button4" class="button-slider">
+					<img src="next.png" class="chevron" alt="next-button">
+				</button>
+			</div>
             </th>
             </tr>
 	    <tr>
@@ -291,12 +344,23 @@
 	    </tr>
 	</table>
 
-	<table class="carros2">
+	<table class="carros2" id="corolla">
         <tr>
             <th colspan="3">
-                <a >
-                <img alt="ERROR" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaaZvnGZgMb7QCjUMs_yveTnsLfTo0HLjGFdm7dZhF82MY0JygZnRlwYlc53ozYbW0XaA&usqp=CAU" width="320" height="180">
-                </a>
+			<!--Slider 5-->
+			<div class="container-slider">
+				<button id="prev-button5" class="button-slider">
+					<img src="prev.png" class="chevron" alt="prev-button">
+				</button>
+				<div class="container-images">
+					<img src="carros/corolla1.jpg" alt="carango" class="slider5 on">
+					<img src="carros/corolla2.jpg" alt="carango" class="slider5">
+					<img src="carros/corolla3.jpg" alt="carango" class="slider5">
+				</div>
+				<button id="next-button5" class="button-slider">
+					<img src="next.png" class="chevron" alt="next-button">
+				</button>
+			</div>
             </th>
             </tr>
 	    <tr>
